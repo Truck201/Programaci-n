@@ -202,7 +202,7 @@ footer {
     animation-fill-mode: both;
 }
 
-<<<<<<< HEAD
+
 .about img{
     view-timeline-name: --image;
     view-timeline-axis: block;
@@ -344,10 +344,9 @@ h3 {
 }
 
 
-=======
 h2 .my-webs img {
     display: flex;
     overflow: hidden;
 }
->>>>>>> 12cca1a50e25870db3dde3c86a66e1f91b6e48f2
+
 
