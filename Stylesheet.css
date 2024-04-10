@@ -14,8 +14,7 @@ body{
     margin:0;
     padding: 0;
     display: block;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     height: auto;
     background: url(img/program.jpg) center;
     background-size: cover;
@@ -157,7 +156,29 @@ footer {
     max-width: 45px;
     border-radius: 40%;
     margin: 20px 10px;
+
 }
+
+
+.datos-2 {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -40%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
 
 @keyframes show{
     from {
@@ -170,15 +191,7 @@ footer {
     }
 }
 
-h2 img {
-    width: 60%;
-    height: auto;
-    position:relative;
-    align-items: center;
-}
-
-
-h2 img{
+.projects img{
     view-timeline-name: --image;
     view-timeline-axis: block;
 
@@ -188,5 +201,146 @@ h2 img{
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }
+
+.about img{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.my-webs {
+    height: 850px;
+    border: 3px solid;
+    padding-top: 3%;
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-1 {
+    padding: 3% 0;
+    margin: 3% 0;
+}
+
+
+h2 img {
+    width: 70%;
+    height: auto;
+    position:relative;
+}
+
+.carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.itemCarrousel.active {
+    display: block;
+}
+
+.itemCarrousel {
+    display: none;
+    transition: opacity 4.4s ease;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrousel:hover {
+    transform:scale(0.99);
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+ 
+.itemCarrousel img {
+    width: 100%;
+    height: auto;
+}
+  
+.box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .box:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    scale: 1.3;
+  }
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
 
 

@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Joaquin Alejandro Gandini</title>
     <link rel="stylesheet" href="Stylesheet.css">
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+   
     <header class="header">
         <div class="logo">
         <a href="" rel="_blank"><img src="img/rostro.png" alt="rostro" id="rostro"></a>
@@ -26,49 +29,86 @@
     <div class="contenedor">
         <h1>
                 <!--<div><button>Acerca de:</button></div> -->
-             <div class="tittle">Hi  !! I´am Joaquín &#128511</div>
+            <div class="tittle">Hola  !! Soy Joaquín &#128511</div>
         </h1>
 
-            <div class="datos">
-                Soy diseñador y programador web
-                <br>
-                <br>
-                <a href="" ><img src="img/cv.jpeg" alt="Mi curriculum vitae"></a>
+        <div class="datos">
+            <div class="datos-2">Estudio Diseño y Programación Web   
             </div>
+            <br>
+            <br>
+             <a href="" ><img class="box" src="img/cv.jpeg" alt="Mi curriculum vitae"></a>
+        </div>
 
         <h2>
-            <div class="my-webs">My Webs
-                <div class="scroll-1">
-                    <a href="" ><img src="img/blank.jpeg" alt=""></a>
-                    <a href="" ><img src="img/blank.jpeg" alt=""></a>
-                </div>      
+            <div class="carrousel">
+                <div class="conteCarrousel">
+                    <div class="itemCarrousel" id="itemCarrousel-1">
+                        <div class="itemCarrouselTarjeta">A</div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-3">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-2">
+                        <div class="itemCarrouselTarjeta">B</div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-1">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-3">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-3">
+                        <div class="itemCarrouselTarjeta">C</div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-1">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteCarrouselController">
+                    <a href="#itemCarrousel-1">•</a>
+                    <a href="#itemCarrousel-2">•</a>
+                    <a href="#itemCarrousel-3">•</a>
+                </div>
             </div>
 
             <div class="projects">
                 Proyects
-                <div class="scroll-2">
-                    <a href="" ><img src="img/blank.jpeg" alt=""></a>
+                <div class="scroll-1">
+                    <center><a href="" ><img src="img/blank.jpeg" alt=""></a></center>
                 </div>  
             </div>
 
             <div class="about">
                 About Me
-                <div class="scroll-3">
-                    <a href="" ><img src="img/blank.jpeg" alt=""></a>
+                <div class="scroll-1">
+                    <center><a href="" ><img src="img/blank.jpeg" alt=""></a></center>
                 </div>
             </div>  
         </h2> 
 
     </div>
-
+    
 </body>
 <footer>
     <h3>@Social
        <div class="iconos">
-            <a href="" ><img src="img/llamada.jpg" alt="contacts"></a>
-            <a href="" ><img src="img/github.jpeg" alt="github link"></a>
-            <a href="" ><img src="img/instagram.png" alt="instagram link"></a>
-            <a href="" ><img src="img/linkedin.png" alt="instagram link"></a>
+            <a href="" ><img class="box" src="img/llamada.jpg" alt="contacts"></a>
+            <a href="" ><img class="box" src="img/github.jpeg" alt="github link"></a>
+            <a href="" ><img class="box" src="img/instagram.png" alt="instagram link"></a>
+            <a href="" ><img class="box" src="img/linkedin.png" alt="instagram link"></a>
             
         </div>
     </h5>
