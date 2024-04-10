@@ -120,7 +120,7 @@ body{
 
 h2 {
     font-size: 3vh;
-    text-align: left;
+    text-align: center justify;
     margin: 10px 10px;
     padding: 3% 3%;
 }
@@ -202,6 +202,7 @@ footer {
     animation-fill-mode: both;
 }
 
+<<<<<<< HEAD
 .about img{
     view-timeline-name: --image;
     view-timeline-axis: block;
@@ -343,4 +344,10 @@ h3 {
 }
 
 
+=======
+h2 .my-webs img {
+    display: flex;
+    overflow: hidden;
+}
+>>>>>>> 12cca1a50e25870db3dde3c86a66e1f91b6e48f2
 
