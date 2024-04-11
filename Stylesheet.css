@@ -20,6 +20,21 @@ body{
     background-size: cover;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 .my-webs img {
+    display: flex;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+
 .contenedor {
     padding: 2rem 3rem;
     text-align: center;
@@ -41,8 +56,10 @@ body{
     text-align: center;
     justify-content: center;
     height: 20vh;
-    font-size: 26px; 
-    padding-top: 3%;  
+    font-size: 25px; 
+    padding-top: 3% ; 
+    background-color: #222; 
+    
 }
 
 .tittle:hover {
@@ -244,6 +261,18 @@ h2 img {
     overflow: hidden;
 }
 
+#itemCarrousel-1 {
+    background-color: red;
+}
+
+#itemCarrousel-2 {
+    background-color: green;
+}
+
+#itemCarrousel-3 {
+    background-color: blue;
+}
+
 .itemCarrousel.active {
     display: block;
 }
@@ -265,52 +294,7 @@ h2 img {
     height: 100%;
 }
 
-.itemCarrouselArrows{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px; 
-}
 
-.itemCarrouselArrows > i:hover {
-    cursor: pointer;
-}
-
-#itemCarrousel-1{
-    background-color: rgb(226, 50, 50);
-}
-
-#itemCarrousel-2{
-    background-color: rgb(50, 200, 226);
-}
-
-#itemCarrousel-3{
-    background-color: rgb(200, 226, 50);
-}
-
-.conteCarrouselController{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.conteCarrouselController > a{
-    text-decoration: none;
-    font-size: 2em;
-    color: grey;
-}
-
-.itemCarrouselArrows > a > i{
-    color: white;
-}
- 
 .itemCarrousel img {
     width: 100%;
     height: auto;
@@ -339,14 +323,8 @@ h2 img {
     }
 }
 
-h3 {
-    font-size: 1.6em;
-}
 
 
-h2 .my-webs img {
-    display: flex;
-    overflow: hidden;
-}
+
 
 
